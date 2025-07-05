@@ -13,9 +13,13 @@ class IndexView(LoginRequiredMixin, TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         user = self.request.user
-        # Получаем всех пользователей, которые указали текущего пользователя как пригласившего
-        invited_users = User.objects.filter(invited_by=user)
-        invited_users_count = invited_users.count()
+
+        # Получаем список ID приглашённых пользователей
+        invited_users_ids = User.objects.filter(invited_by=user).values_list("id", flat=True)
+        invited_users_count = len(invited_users_ids)
+
+        # Получаем объекты приглашённых пользователей
+        invited_users = User.objects.filter(id__in=invited_users_ids)
 
         # Добавляем в контекст для отладки
         context["invited_users"] = invited_users
