@@ -212,5 +212,5 @@ SIMPLE_JWT = {
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost",
     "http://127.0.0.1",
-    "http://109.73.198.51",
+    "http://84.252.140.93",
 ]
