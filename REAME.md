@@ -16,7 +16,7 @@
 
 ## Требования
 
-- Python 3.8+
+- Python 3.12
 - PostgreSQL
 - Redis (для кэширования)
 - SMS Aero API ключ

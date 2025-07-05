@@ -20,8 +20,8 @@ gunicorn = "^23.0.0"
 smsaero-api = "^3.0.0"
 django-phonenumber-field = "^8.0.0"
 loguru = "^0.7.3"
-coverage = "^7.7.0"
-flake8 = "^7.1.2"
+
+
 
 
 [tool.poetry.group.lint.dependencies]
