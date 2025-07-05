@@ -222,3 +222,8 @@ class PhoneConfirmView(FormView):
                 form = self.get_form()
                 form.add_error("code", "Неверный код")
                 return self.form_invalid(form)
+
+        # Если код неверный или пользователь не найден
+        form = self.get_form()
+        form.add_error("code", "Неверный код")
+        return self.form_invalid(form)
