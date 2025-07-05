@@ -1,0 +1,170 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+/* Стили для user_list */
+.user-table {
+    border: 1px solid var(--bs-border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    margin: 20px 0;
+}
+
+.user-table .table {
+    margin-bottom: 0;
+}
+
+.user-table thead th {
+    background-color: var(--bs-tertiary-bg);
+    border-bottom: 2px solid var(--bs-border-color);
+    padding: 12px;
+    font-weight: 600;
+    color: var(--bs-body-color);
+}
+
+.user-table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--bs-border-color);
+    color: var(--bs-body-color);
+}
+
+.user-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.user-table tbody tr:hover {
+    background-color: var(--bs-tertiary-bg);
+}
+
+.invited-users {
+    color: var(--bs-body-color);
+}
+
+.invited-users span {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+/* Стиль для заголовка страницы */
+.page-header {
+    padding-left: 5px;
+    margin-bottom: 0px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--bs-body-color);
+}
+
+/* Стили для карточки инвайт-кода */
+.card {
+    border-color: var(--bs-border-color);
+    background-color: var(--bs-card-bg);
+    box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), 0.15);
+}
+
+.card-header {
+    background-color: var(--bs-tertiary-bg);
+    border-bottom: 1px solid var(--bs-border-color);
+    padding: 1rem;
+}
+
+.card-header h3 {
+    color: var(--bs-body-color);
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 2rem;
+    color: var(--bs-body-color);
+}
+
+.form-label {
+    color: var(--bs-body-color);
+    font-weight: 500;
+}
+
+.form-control {
+    background-color: var(--bs-form-control-bg);
+    border-color: var(--bs-border-color);
+    color: var(--bs-body-color);
+}
+
+.form-control:focus {
+    background-color: var(--bs-form-control-bg);
+    border-color: var(--bs-primary);
+    color: var(--bs-body-color);
+}

@@ -1,0 +1,41 @@
+{% extends 'authapp/base.html' %}
+
+{% block title %}Пользователи системы{% endblock %}
+
+{% block content %}
+<!-- Заголовок -->
+<div class="page-header">Пользователи системы</div>
+
+<!-- Таблица -->
+<div class="user-table">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Телефон</th>
+                <th scope="col">Инвайт-код</th>
+                <th scope="col">Был приглашен пользователем</th>
+                <th scope="col">Пригласил пользователей</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for system_user in object_list %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ system_user.phone }}</td>
+                <td>{{ system_user.invite_code }}</td>
+                <td>{{ system_user.invited_by|default:"-" }}</td>
+                <td class="invited-users">
+                    {% for user in system_user.invited_users.all %}
+                    <span>{{ user }}</span>{% if not forloop.last %}<br>{% endif %}
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
