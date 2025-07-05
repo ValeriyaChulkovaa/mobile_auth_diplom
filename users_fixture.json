@@ -1,0 +1,170 @@
+[
+{
+    "model": "users.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$6e9dFIubTbbm3diUWCFCwZ$65V9JF2AfIqj00k6eUZhL0rzUeHvF1HQGfdYhk2kvjM=",
+        "last_login": "2025-03-19T07:49:01.891Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:42:48.015Z",
+        "phone": "+77777777777",
+        "invite_code": "SVPB1L",
+        "invited_by": null,
+        "created_at": "2025-03-19T07:42:48.016Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 23,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:48:31.088Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:43:49.646Z",
+        "phone": "+71111111111",
+        "invite_code": "71YGLQ",
+        "invited_by": 27,
+        "created_at": "2025-03-19T07:43:49.646Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 24,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:46:43.539Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:44:02.536Z",
+        "phone": "+72222222222",
+        "invite_code": "H5HPD7",
+        "invited_by": 22,
+        "created_at": "2025-03-19T07:44:02.536Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 25,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:47:00.337Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:44:13.748Z",
+        "phone": "+73333333333",
+        "invite_code": "714W7T",
+        "invited_by": 27,
+        "created_at": "2025-03-19T07:44:13.748Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 26,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:47:10.005Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:44:24.236Z",
+        "phone": "+74444444444",
+        "invite_code": "1CK6SK",
+        "invited_by": null,
+        "created_at": "2025-03-19T07:44:24.236Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 27,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:47:20.220Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:45:06.499Z",
+        "phone": "+75555555555",
+        "invite_code": "UMWM1T",
+        "invited_by": null,
+        "created_at": "2025-03-19T07:45:06.499Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 28,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:47:29.921Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:47:25.705Z",
+        "phone": "+76666666666",
+        "invite_code": "CJ90RP",
+        "invited_by": null,
+        "created_at": "2025-03-19T07:47:25.705Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 29,
+    "fields": {
+        "password": "",
+        "last_login": "2025-03-19T07:48:48.072Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-19T07:48:44.369Z",
+        "phone": "+78888888888",
+        "invite_code": "0DUQKJ",
+        "invited_by": 23,
+        "created_at": "2025-03-19T07:48:44.369Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
